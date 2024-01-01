@@ -71,7 +71,7 @@ class _NewMessageState extends State<NewMessage> {
               headers: {
                 HttpHeaders.contentTypeHeader: 'application/json',
                 HttpHeaders.authorizationHeader:
-                    "key=AAAA9sEZN_c:APA91bFsxNxgHDu9ed-xhyk4LXa5kKLfa9vjsfDTmP5HFAi6cmR3yLulftuezUnprA3yQkGTUO97sztPhVl6U4xVUhfWrznedlNZx-LQgSdD0N62kCpgJJnmywLEVUQC4hrSw1VWGLvg"
+                    ""
               },
               body: jsonEncode(body));
       print('Response status: ${response.statusCode}');
